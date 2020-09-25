@@ -1,2 +1,5 @@
 npm run build
 ./node_modules/serve/bin/serve.js -s build
+
+https:
+./node_modules/serve/bin/serve.js -s --ssl-cert cert.pem --ssl-key key.pem build
